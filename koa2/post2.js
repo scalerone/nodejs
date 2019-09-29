@@ -58,3 +58,10 @@ function parseQueryStr(queryStr){
 app.listen(3000,()=>{
     console.log('[demo] server is starting at port 3000');
 });
+
+// [ 'userName=admin', 'age=11', 'webSite=11111111' ]
+//     [ 'userName', 'admin' ]
+//     [ 'age', '11' ]
+//     [ 'webSite', '11111111' ]
+
+//{"userName":"admin","age":"11","webSite":"11111111"}
