@@ -8,6 +8,7 @@ const router = new Router();
 //http://localhost:3000/newscontent?aid=123
 //注册路由
 router.get('/', function (ctx, next) {
+    console.log(next)
     ctx.body="Hello JSPang";
 })
 .get('/newscontent', function (ctx, next) {
